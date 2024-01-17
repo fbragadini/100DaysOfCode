@@ -1,0 +1,30 @@
+.quote_div {
+  background-color: rgb(51, 50, 50);
+  border-radius: 1.5rem;
+  padding: 2rem;
+  margin-top: 4rem;
+  border: solid 2px aquamarine;
+  max-width: 720px;
+}
+
+.quote_quote {
+  font-style: italic;
+  font-size: 1.3rem;
+}
+
+.quote_quote::before {
+  content: "'";
+}
+
+.quote_quote::after {
+  content: "'";
+}
+
+.quote_author {
+  text-align: end;
+  font-size: 1.2rem;
+}
+
+.quote_author::before {
+  content: '-';
+}
